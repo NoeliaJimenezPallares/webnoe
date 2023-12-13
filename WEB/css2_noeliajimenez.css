@@ -1,0 +1,63 @@
+
+  /*
+1-CSS2-Enlazado correctamente con los archivos de la web	ok
+
+2-CSS2 - Formato al TEXTO ( utilizar class e id)	ok
+
+3-CSS2 - Formato al TEXTO ( diferentes alineaciones)	ok
+
+4-CSS2- Formato de ENLACES (cambiar las propiedades)	ok
+
+5-CSS2- Formato de TABLA ( Bordes, color fondo, color borde, color texto)	
+
+6-CCS2- En el FORMULARIO (bordes, texto y fondo)	
+
+7-CSS2-otras aportaciones de diseño de la página	
+
+Cambio en la DISTRIBUCIÓN de la página. (menú o/y div)	ok
+
+Alojamiento en servidor web	
+
+Todos los archivos html y css entregados deberán estar validados*/
+
+body {background-color: rgb(124, 166, 18);}
+/* Encabezados*/
+h1 {font-size: normal;font-family: arialsans-serif;color: rgb(39, 4, 71);}
+h3 {font-family: arial black;color: rgb(39, 4, 71);}
+h2 {color:rgb(214, 13, 80) ;}
+h6 {color:violet;font-size: 12px;font-family: arial;}
+h4 {color: black;}
+h5 {color: black;}
+/*texto*/
+p{font-family: Arial, Helvetica, sans-serif;font-size: 14;color: brown
+  ;}
+  strong {color: black;font-family: arial black;}
+/*subrayado formulario*/
+#identified { background-color: rgb(225, 235, 135);}
+
+.importante  {color: rgb(2, 9, 21);font-size: 14px;font-family: arial black;}
+
+ p {color: aqua;}
+ /*enlaces*/
+ a:link, a:visited,  a:active {
+  color:rgb(2, 10, 14); border: 1px solid black;
+  font-size:16px;font-style: italic;}
+  a:hover {color: red;}
+  /*menu*/
+  ul.menu2 { 
+    width: 1080px;font-size: x-large;
+ }
+
+ #nav {color: rgb(0, 89, 255);
+  float: left;
+  margin: 3;
+  padding: 7;
+  list-style: none;list-style:circle ;
+}
+
+#nav  {
+  display: inline-block;
+  padding: 2px;
+  background-color: pink
+}
+.peliculas{color: rgb(255, 0, 76);}

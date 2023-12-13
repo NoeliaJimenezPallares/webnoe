@@ -1,0 +1,104 @@
+/*
+1-CSS1 Enlazado correctamente con los archivos de la web ok	
+
+2-CSS1 - Formato al TEXTO ( utilizar class e id)	ok
+
+3-CSS1 - Formato al TEXTO ( diferentes alineaciones)ok	
+
+4-CSS1- Formato de ENLACES (cambiar las propiedades)	ok
+
+5-CSS1- Formato de TABLA ( Bordes, color fondo, color borde, color texto)ok	
+
+6-CCS1- En el FORMULARIO (bordes, texto y fondo) ok	
+
+7-CSS1-otras aportaciones de diseño de la página */
+/* Etilo para un cuerpo del HTML */
+
+body {
+    background-color : rgb(158, 151, 151);
+    background-image : url(imagenes/colores.jpeg);
+    }
+    h1, h2, h3, h4 {
+    font-size : 14px;
+    font-family : arial, sans-serif;
+    color : #be5693;
+    }
+    h5 {
+    color : blueviolet;
+    }
+    h6 {
+    color : coral;
+    font-size : larger;
+    }
+    #identified {
+    background-color : rgb(165, 182, 11);
+    font-family : "arial black";
+    color : black;
+    }
+    #keto {
+    color : #191cd0;
+    background-color : rgb(0, 255, 89);
+    }
+    .importante {
+    color : rgb(44, 84, 153);
+    font-size : 14px;
+    font-family : "arial black";
+    }
+    .yo {
+    color : #bdbd08;
+    font-style : oblique;
+    font-size : 18px;
+    }
+    .series {
+    font-family : "ARIAL BLACK";
+    }
+    p {
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 14px;
+    }
+    table {
+    color : rgb(140, 131, 5);
+    border-color : darkgreen;
+    border-width : 4px;
+    }
+    tr {
+    background : #56be98;
+    }
+    td {
+    background : rgb(2, 14, 18);
+    }
+    strong {
+    color : rgb(67, 119, 84, 0.733);
+    }
+    a:link, a:visited, a:active {
+    color : rgb(2, 10, 14);
+    border : black solid 2px;
+    font-size : 14px;
+    font-style : oblique;
+    }
+    a:hover {
+    color : #be5693;
+    }
+    input[type="text"], input[type="email"], input[type="submit"], input[type="reset"] {
+    background-color : #d01990;
+    border-color : black;
+    border-width : 6px;
+    font-size : 18px;
+    font-style : italic;
+    }
+    ol {
+    font-family : arial;
+    color : rgb(199, 11, 11);
+    }
+    div {
+    font-family : arial;
+    color : rgb(4, 42, 42);
+    font-size : 16px;
+    }
+    .imagenes {
+    border-radius : 25px;
+    }
+    .pizza {
+    border-radius : 35px;
+    }
+    
